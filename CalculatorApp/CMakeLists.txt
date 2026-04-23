@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.21)
+project(Calculator VERSION 1.0.0 LANGUAGES CXX)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(AppName ${PROJECT_NAME})
+add_subdirectory(CalculatorApp)
